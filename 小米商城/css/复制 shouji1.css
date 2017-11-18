@@ -1,0 +1,168 @@
+html,body{margin: 0;padding: 0;width: 100%;height: 100%;}
+body{font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
+ul,input,span,div,li,p,dl,dt,dd,h2,h3,img,br,h1,i{margin: 0;padding: 0;}
+.clearfix:after{clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;zoom: 1;}
+li{list-style: none;}
+a{text-decoration: none;}
+/*header部分*/
+.header{
+	width: 100%;
+	height: 65px;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+	margin-top: 10px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #999;
+}
+.header .h_tit{
+	width: 86.2%;
+	height: 65px;
+	margin: 0 6.9%;
+	float: left;
+	overflow: hidden;
+}
+.h_tit .h_icon{
+	width: 55px;
+	height: 55px;
+	background:url(../s_img/icon.jpg)no-repeat center ;
+	float: left;
+}
+
+.h_tit .l{
+	list-style: none;
+	width: 100px;
+	height: 100%;
+	line-height:55px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+	overflow: hidden;
+}
+.h_tit li a{
+	text-decoration: none;
+	color: #333;
+	font-size: 16px;
+	font-weight: normal;
+}
+.h_tit .sosou{
+	width: 21%;
+	height: 100%;
+	float: right;
+}
+.sosou input{
+	width: 78%;
+	height: 50px;
+	border: 1px solid #999;
+	float: left;
+}
+.sosou span{
+	display: inline-block;
+	width: 52px;
+	height: 50px;
+	border: 1px solid #999;
+	float: left;
+	background:url(../s_img/sosou.PNG) no-repeat center;
+	border-left: none;
+}
+.sosou span:hover{
+	background:url(../s_img/sosou1.png) no-repeat center;
+	background-size: cover;
+}
+.h_tit li:hover a{color: #FF6700;}
+.h_tit .l1:hover .page1{top: 65.5px;}
+.h_tit .l2:hover .page2{top: 65.5px;}
+.h_tit .l3:hover .page3{top: 65.5px;}
+
+/*page 部分*/
+.h_tit li .page{
+	width: 100%;
+	height: 0px;
+	background-color: #fff;
+    position: absolute;
+    left: 0;
+    top:65px;
+    z-index: -1;
+    transition: all 2s;
+}
+.page .p_box{
+	width: 80%;
+	height: 201px;
+	margin: 0 auto;
+}
+.h_tit li .page .p_box li{
+	list-style: none;
+	width: 180px;
+	height: 201px;
+	float: left;
+}
+.h_tit li .page .p_box li .p_img{
+	width: 160px;
+	height: 110px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-right: 1px solid #999;
+	padding-right: 10px;
+}
+.h_tit li .page .p_img img{
+	width: 100%;
+	height: 100%;
+}
+.h_tit li .page .p_box li .no{border-right: none;}
+.h_tit li .page .p_box li p:nth-child(3){color: #ff6700;}
+.h_tit li .page .p_box li p{
+	color: #333;
+	font-size: 13px;
+	text-align: center;
+	line-height: 20px;
+}
+
+
+
+/*xm_tit_box部分*/
+.xm_tit_box{
+	width: 100%;
+	height: 65px;
+}
+.xm_tit_box .xm_tit{
+	width: 86.2%;
+	height: 100%;
+	margin: 0 auto;
+}
+.xm_tit .tit_left{
+	width: 200px;
+	height:100% ;
+	float: left;
+}
+.tit_left h2{
+	text-align: left;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 60px;
+}
+.xm_tit .tit_right{
+	height:100% ;
+	float: right;
+}
+.tit_right a:nth-child(1){color: #FF6700;}
+.tit_right a{
+	display: inline-block;
+	color: #757575;
+	font-size: 14px;
+	height: 100%;
+	line-height:65px ;
+}
+.tit_right span{
+	color: #999999;
+	margin 0 2px;
+}
+.tit_right .xm_btn{
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #FFFFFF;
+	background: #FF6700;
+	margin-left: 5px;
+}
